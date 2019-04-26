@@ -18,10 +18,10 @@
       "value": "10.23.12.0/25"
     },
     "lbName": {
-      "value": "public-lb"
+      "value": "hhi-com-paloalto-lb001-sk"
     },
     "dnsNameforLBIP": {
-      "value": "publiclbdnslb51g"
+      "value": "hhi-com-paloalto-pip001-sk"
     },
     "availabilitySetName": {
       "value": "hhi-com-paloalto-avset01"
@@ -66,7 +66,7 @@
       "value": "public-lb"
     },
     "availabilitySetName": {
-      "value": "hhi-com-paloalto-avset01"
+      "value": "hhi-com-paloalto-avset02"
     },
     "vmCount": {
       "value": 2
