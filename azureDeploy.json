@@ -183,7 +183,7 @@
         "artifactsBaseUrl": "",
         "description": "URL to acquire other VM-Series for Azure templates"
       },
-      "defaultValue": "https://raw.githubusercontent.com/PaloAltoNetworks/azure-load-balancer1/master/"
+      "defaultValue": "https://raw.githubusercontent.com/winapp81/azure-load-balancer1/master/"
     },
     "MgmtPublicIP": {
       "type": "string",
