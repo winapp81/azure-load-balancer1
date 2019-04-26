@@ -4,7 +4,7 @@
   "parameters": {
     "nsgName": {
       "type": "string",
-      "defaultValue": "nsg-default1"
+      "defaultValue": "hhi-com-paloalto-vm001-sk-nsg001"
     },
     "srcIPInboundNSG": {
        "type": "string",
@@ -15,7 +15,7 @@
     },
     "virtualNetworkName": {
       "type": "string",
-      "defaultValue": "vnet-FW",
+      "defaultValue": "hhi-com-vnet001-sk",
       "metadata": {
         "description": "VNET name"
       }
@@ -40,7 +40,7 @@
     },
     "virtualNetworkAddressPrefix": {
       "type": "string",
-      "defaultValue": "192.168.0.0/16",
+      "defaultValue": "10.23.12.0/25",
       "metadata": {
         "description": "CIDR for vnet"
       }
@@ -68,21 +68,21 @@
     },
     "subnet0Prefix": {
       "type": "string",
-      "defaultValue": "192.168.0.0/24",
+      "defaultValue": "10.23.12.0/29",
       "metadata": {
         "description": "Mgmt subnet CIDR"
       }
     },
     "subnet1Prefix": {
       "type": "string",
-      "defaultValue": "192.168.1.0/24",
+      "defaultValue": "10.23.12.16/28",
       "metadata": {
         "description": "Untrust subnet CIDR"
       }
     },
     "subnet2Prefix": {
       "type": "string",
-      "defaultValue": "192.168.2.0/24",
+      "defaultValue": "10.23.12.32/28",
       "metadata": {
         "description": "Trust subnet CIDR"
       }
@@ -95,14 +95,14 @@
     },
     "lbName": {
       "type": "string",
-      "defaultValue": "myPublicLB",
+      "defaultValue": "hhi-com-paloalto-lb001-sk",
       "metadata": {
         "description": "Public Load Balancer name"
       }
     },
     "publicLoadBalancePIPName": {
       "type": "string",
-      "defaultValue": "mypubliciploadbal",
+      "defaultValue": "hhi-com-paloalto-pip001-sk",
       "metadata": {
         "description": "Public Load Balancer Public IP Name"
       }
@@ -139,12 +139,12 @@
        "metadata": {
           "description": "Name of VM-Series VM in the Azure portal"
        },  
-       "defaultValue": "VM-Series"
+       "defaultValue": "hhicompaloaltovm"
     },
     "Email": {
        "type": "string",
        "metadata": {
-          "description": "Email ID"
+          "description": "park.gt@techdataglobal.co.kr"
        },
        "defaultValue": ""
     },
