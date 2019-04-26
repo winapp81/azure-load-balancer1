@@ -468,7 +468,7 @@
                "value": "[parameters('vmSize')]"
           },
           "virtualNetworkName": {
-               "value": "[reference('SetupVNET').outputs.vnetName.value]"
+               "value": "[parameters('virtualNetworkName')]"
           },
           "virtualNetworkExistingRGName": {
                "value": "[parameters('virtualNetworkExistingRGName')]"
@@ -519,7 +519,7 @@
                "value": "[parameters('UntrustPublicIPRGName')]"
           },
           "storageAccountName": {
-               "value": "[reference('SettingUpStorageAccount').outputs.sid.value]"
+               "value": "[parameters('storageAccountName')]"
           },
           "storageAccountNewOrExisting": {
                "value": "[parameters('storageAccountNewOrExisting')]"
