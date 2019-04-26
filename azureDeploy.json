@@ -331,7 +331,7 @@
     "location": "[resourceGroup().location]",
     "rgname": "[resourceGroup().id]",
     "rgname": "vnet",
-    "nsgName" : "[concat('vmseries-NSG-', substring(uniqueString(resourceGroup().id), 0, 4))]",
+    "nsgName" : "[parameters('nsgName')]",
     "nsgURL" : "[concat(parameters('baseUrl'),'/nsg-new.json')]",
     "vnetURL" : "[concat(parameters('baseUrl'),'/vnet-', parameters('vnetNewOrExisting'),'.json')]",
     "publicLBURL" : "[concat(parameters('baseUrl'),'/public-lb-', parameters('LoadBalancerType'), '.json')]",
